@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(248, 245, 243);
+}
+.container{
+    width: 500px;
+    height: 620px;
+    background-color: rgb(57, 55, 55);
+    margin: 200px auto;
+    border-radius: 0 0 5px 5px;
+}
+h2,p{
+    color: rgb(248, 245, 243);
+    margin-left: 5px;
+}
+h2{
+    margin-top: 10px;
+}
