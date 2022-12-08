@@ -1,0 +1,108 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background: #222;
+}
+
+.container {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container span {
+  margin: 0 10px;
+  font-size: calc(5vmin + 10px);
+  color: #484848;
+  -webkit-animation: k2000 1.2s linear infinite alternate;
+          animation: k2000 1.2s linear infinite alternate;
+}
+
+@-webkit-keyframes k2000 {
+  0% {
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
+  }
+  90% {
+    color: #484848;
+    text-shadow: none;
+  }
+  100% {
+    color: #484848;
+    text-shadow: none;
+  }
+}
+
+@keyframes k2000 {
+  0% {
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
+  }
+  90% {
+    color: #484848;
+    text-shadow: none;
+  }
+  100% {
+    color: #484848;
+    text-shadow: none;
+  }
+}
+.container span:nth-child(1) {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+.container span:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.container span:nth-child(3) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.container span:nth-child(4) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.container span:nth-child(5) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.container span:nth-child(6) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.container span:nth-child(7) {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.container span:nth-child(8) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.container span:nth-child(9) {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+.container span:nth-child(10) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}/*# sourceMappingURL=style.css.map */
