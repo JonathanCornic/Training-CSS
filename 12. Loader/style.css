@@ -1,0 +1,40 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  position:absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.point {
+width: 20px;
+height: 20px;
+background: rgb(0, 0, 0);
+display: inline-block;
+border-radius: 50%;
+margin: 10px;
+}
+.point1{
+  animation: loader 0.3s infinite alternate;
+}
+.point2{
+  animation: loader 0.3s 0.05s infinite alternate;
+}
+.point3{
+  animation: loader 0.3s 0.1s infinite alternate;
+}
+@keyframes loader{
+  100%{
+    transform: translateY(-30px);
+  }
+}
